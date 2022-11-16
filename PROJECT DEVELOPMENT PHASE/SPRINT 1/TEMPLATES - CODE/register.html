@@ -1,0 +1,79 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+   
+<head>
+<meta charset="ISO-8859-1">
+<title>Virtual Eye</title>
+<link rel="icon" type="image/x-icon" width="250" height="50" href="https://cdn.digitalhealth.net/wp-content/uploads/2017/03/eye_image_generic_555.jpg">
+
+ <style>
+
+  .border{
+
+   width: 200px;
+  height: 270px;
+  object-fit: cover;
+  border: 2px solid grey
+
+  }
+ 
+   .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav-left{
+float:left;
+}
+
+  </style>
+</head>
+<body>
+<form action="http://localhost:8080/IBM/3.html">
+<center>
+<div class="topnav">
+<div class="topnav-left">
+<a href="#virtualeye">Virtual Eye</a>
+</div>
+    <a href="register.html">Register</a>
+     <a href="login.html">Login</a>
+  <a class="active" href="index.html">Home</a>
+ </div>
+<br><br><br><br><br><br><br>
+<div class="border">
+    <img src="eye_image_generic_555.jpg" width="150" height="100"><br><br>
+<input type="text" placeholder="Enter Name"><br/><br>
+<input type="text" placeholder="Enter Email ID"><br/><br>
+<input type="password" placeholder="Enter Password"><br/><br>
+<input type="button" value="Register">
+</div>
+ <div class="container signin" align="center">
+    <p>Already have an account? <a href="login.html">Log in</a>.</p>
+  </div>
+</center>
+    
+</form>
+</body>
+</html>
